@@ -1,0 +1,148 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 58px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0%;
+    background-color: white;
+    border-bottom:solid 1px rgb(232, 228, 228);
+    z-index: 100;
+}
+.first {
+    width: 150px;
+    margin-right: 70px;
+    
+}
+.middle {
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    margin-right: 35px;
+    margin-left: 40px;
+    align-items: center;
+}
+.third {
+    width: 200px;
+    flex-shrink: 0;
+    display: 
+    
+}
+.youtube-logo {
+    width: 100px;
+    margin-left: 60px;
+    margin-top: -22px;
+    cursor: pointer;
+
+}
+.search-icon {
+   width: 40px;
+   height: 41px;
+   position: relative;
+   left: -6px;
+   border-radius: 0% 50% 50% 0%;
+   border: solid 2px gray;
+   cursor: pointer;
+}
+
+.search-icon:hover {
+    opacity: 1;
+}
+.search {
+    padding: 13px 100px 13px 13px;
+    border-radius: 50px 0px 0px 50px;
+    flex-shrink: 0;
+}
+.search::placeholder {  
+    font-family: Roboto, Arial;
+    font-size: 18px;
+}
+.display-search {
+    background-color: gray;
+    position: absolute;
+    right: 600px;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    opacity: 0;
+    transition: .5s ease;
+    backface-visibility: hidden
+}
+
+.mic {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.three-doted-icon {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: 12px;
+    cursor: pointer;
+}
+.signup-button {
+    padding: 8px 8px 8px 40px;
+    position: relative;
+    left:35px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signup-icon {
+    width: 20px;
+    height:20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 60px;
+    top: 6px;
+    cursor: pointer;
+
+}
+.nav-bar-icon {
+    width: 20px;
+    position: relative;
+    left: 20px; 
+    top: 20px;
+} 
+body {
+    height: 3000px;
+}
+.nav-bar {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 73px;
+    flex-direction: column;
+    margin-top: 50px;
+    z-index: 200;
+
+}
+.side-bar {
+    margin-bottom: 1px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 200;
+    cursor: pointer;
+}
+.side-bar:hover {
+    background-color:rgb(239, 232, 232);
+}
+.side-bar img {
+    height: 24px;
+    margin-bottom: 4px;
+}
+.side-bar div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
